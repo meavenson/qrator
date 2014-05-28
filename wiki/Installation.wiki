@@ -2,6 +2,8 @@
 
 == What you need to install Qrator ==
 
+Currently, Qrator only runs on Linux or MacOS X.
+
 To install Qrator, you must have:
  # SVN
  # Java 1.6+
