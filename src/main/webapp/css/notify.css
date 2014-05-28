@@ -1,0 +1,38 @@
+.note{
+	position:relative;
+	list-style: none;
+	padding: 5px;
+	padding-left: 30px;
+	font-size: 13px;
+	width: 300px;
+	margin-top: 10px;
+	/*border: 1px solid #333;*/
+	color: #333;
+	-webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+.note-holder{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 9999;
+}
+
+.note-icon{
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	left: 10px;
+}
+
+.note-success{
+	background-color: #5cb85c;
+	color: #fff;
+}
+
+.note-error{
+	background-color: #d9534f;
+	color: #fff;
+}

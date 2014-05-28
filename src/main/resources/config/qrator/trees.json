@@ -1,0 +1,30 @@
+[
+    {
+        "name": "N-glycan",
+        "file": "conf/qrator/trees/N-glycan.xml"
+    },
+    {
+        "name": "GalNAc-initiated_O-glycan",
+        "file": "conf/qrator/trees/GalNAc-initiated_O-glycan.xml"
+    },
+    {
+        "name": "Fuc-initiated_O-glycan",
+        "file": "conf/qrator/trees/Fuc-initiated_O-glycan.xml"
+    },
+    {
+        "name": "Man-initiated_O-glycan",
+        "file": "conf/qrator/trees/Man-initiated_O-glycan.xml"
+    },
+    {
+        "name": "N-glycan_lipid-linked_precursor",
+        "file": "conf/qrator/trees/N-glycan_lipid-linked_precursor.xml"
+    },
+    {
+        "name": "Glc-initiated_glycosphingolipid",
+        "file": "conf/qrator/trees/Glc-initiated_glycosphingolipid.xml"
+    },
+    {
+        "name": "Gal-initiated_glycosphingolipid",
+        "file": "conf/qrator/trees/Gal-initiated_glycosphingolipid.xml"
+    }
+]

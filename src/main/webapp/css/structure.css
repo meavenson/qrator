@@ -1,0 +1,228 @@
+.nodeLabel{
+	position:absolute;
+	font: 11px Trebuchet MS;
+	color:#eee;
+	background-color:#333;
+	padding:2px;
+	z-index: 100;
+	white-space: nowrap;
+	-webkit-border-radius: 3px 3px 3px 3px;
+       -moz-border-radius: 3px 3px 3px 3px;
+            border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.65);
+       -moz-box-shadow: 0 1px 4px rgba(0,0,0,.65);
+            box-shadow: 0 1px 4px rgba(0,0,0,.65);
+}
+
+.edgeLabel{
+	position:absolute;
+	font: 10px Trebuchet MS;
+	color:#000;
+	background-color:#fff;
+	padding:1px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+       -moz-border-radius: 3px 3px 3px 3px;
+            border-radius: 3px 3px 3px 3px;
+}
+
+.subLabel{
+	position:absolute;
+	font-size: 9px;
+}
+
+.struct-exists{
+	background: url(../img/diagonals.png);
+}
+
+.struct{
+	width:100%;
+	height:100%;
+	/*min-width: 550px; 460px;*/
+	position:relative;
+}
+
+/*.struct-container{
+	height:100%;
+	width:100%;
+	position:relative;
+	/*overflow-x:auto;
+	overflow-y:hidden;
+}*/
+
+.struct-candidate{
+	float: left;
+}
+
+div.struct-candidate:hover{
+	background-color: #cfc;
+}
+
+.score{
+	position:absolute;
+	right:5px;
+	top:5px;
+	/*color:#333;
+	font: 14px "Nunito", sans-serif;
+	padding:7px;*/
+}
+
+.q-status{
+	/*position: relative;
+	display: block;
+	text-align: center;
+	padding: 3px;
+	border: 1px solid #999;*/
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: 180px;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+}
+
+.badge .caret{
+	position:absolute;
+	right: 10px;
+	top: 9px;
+}
+
+.q-status-icon{
+	float: right;
+}
+
+.q-status-menu .dropdown-menu{
+	width: 100%;
+	padding: 0;
+}
+
+.q-status-menu .dropdown-menu li a{
+	padding: 5px 10px;
+}
+
+.q-status-menu .dropdown-menu li a:hover{
+	background-color: #eee;
+}
+
+.q-pending{
+	background-color: #f0ad4e;
+}
+
+.q-reviewed{
+	background-color: #8db9df;
+}
+
+.q-deferred{
+	background-color: #5bc0de;
+}
+
+.q-approved{
+	background-color: #5cb85c;
+}
+
+.q-rejected{
+	background-color: #d9534f;
+}
+
+.q-committed{
+	background-color: #408040;
+}
+
+.matchCell{
+	font: 11px Trebuchet MS;
+	color:#eee;
+	min-width: 50px;
+	border-bottom: 1px solid #333;
+}
+
+.matchGreen{
+	background-color: #090;
+}
+
+.matchRed{
+	background-color: #900;
+}
+
+.q-structure-meta-container{
+	margin-left:5px;
+	position:relative;
+	float: left;
+}
+
+.admInfo, .browseInfo{
+	position:absolute;
+	top:320px;
+	width:450px;
+}
+
+.q-struct-info{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size: 11px;
+	margin: 0;
+	/*font: 11px 'Nunito', sans-serif;*/
+	min-width: 225px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	-webkit-border-radius: 0px 0px 0px 6px;
+       -moz-border-radius: 0px 0px 0px 6px;
+            border-radius: 0px 0px 0px 6px;
+}
+
+.q-struct-info dl{
+	padding: 3px;
+	margin-bottom: 0px;
+}
+
+.q-struct-info dl dd{
+	margin-top: 1px;
+	margin-left: 70px;
+}
+
+.q-struct-info dl dt{
+	width: 60px;
+}
+
+.struct-uri{
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	background-color: #eee;
+	color: #333;
+	padding: 2px;
+	-webkit-border-radius: 0px 0px 0px 5px;
+       -moz-border-radius: 0px 0px 0px 5px;
+            border-radius: 0px 0px 0px 5px;
+}
+
+.struct-link{
+	font-size: 22px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.struct-download{
+	right: 10px;
+}
+
+.struct-tree-comparison{
+	left: 10px;
+}
+
+.check{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background-image: url(../img/check.png);
+	width:50px;
+	height:50px;
+}
+
+.linkLabel{
+	position:absolute;
+	font-size: 9px;
+	color:#333;
+	background-color:#fff;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Qrator</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.dataTables.css"/>
+		<link rel="stylesheet" type="text/css" href="css/structure.css"/>
+		<link rel="stylesheet" type="text/css" href="css/qrator.css"/>
+		<link rel="stylesheet" type="text/css" href="css/notify.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="qrator">
+			<div id="header">
+			</div>
+			<div id="menu">
+				<ul id="menu-list"></ul>
+			</div>
+			<div id="content">
+				<div id="welcome">
+					<p>
+						Welcome to Qrator, an application for curating glycan structures.  
+						The complexity of glycans makes determining which structures have errors a tedious and labor-intensive process. 
+						To help alleviate this, Qrator uses a two-stage review process, literature and database references, user annotations, 
+						and canonical structure trees to assist researchers in making informed decisions when curating glycans.  
+						We currently support N-glycans, O-glycans, and glycosphingolipids.
+					</p>
+					<div id="help" style="display:none">
+				
+						<h4 id="toc">Table of Contents</h4>
+						<ol>
+						  <li><a href="#access">	Accessing Qrator		</a></li>
+						  <li><a href="#overview">	Curation Overview		</a></li>
+						  <li><a href="#status">	Status Panel			</a></li>
+						  <li><a href="#browse">	Browse Panel			</a></li>
+						  <li><a href="#upload">	Upload Panel			</a></li>
+						  <li><a href="#curate">	Curate Panel  			</a></li>
+						  <!--li><a href="#admin">		Administration Panel  	</a></li-->
+						</ol>
+			
+						<h4 id="access">1. Accessing Qrator</h4>
+						<p>
+							To access Qrator, a user must login by providing a valid user name and password. 
+							At the end of a session, the user should logout by clicking on the logout link, which is placed in the upper left corner of the main application window, just under the user name.
+						</p>
+						<p>
+							Qrator can currently be used with recent versions of Chrome, Firefox, and Safari, and offers several panels that can be used to access various parts of its functionality. 
+							Currently, the panels include:
+						</p>
+						<ul>
+						  <li><strong>Status</strong> - used to check the status of different stages of curations (how many are at each stage), to download archives of structures at these stages, and to view the current canonical trees.</li>
+						  <li><strong>Browse</strong> - used to view structures at each stage of curation.  Offers filter and substructure search capability.</li>
+						  <li><strong>Upload</strong> - used to upload new GLYDE-II XML, GlycoWorkbench Structure files (GWS), or zipped archives of these structures.</li>
+						  <li><strong>Curate</strong> - used to review structures by matching them against canonical trees, and to defer, approve, and reject structures.  Offers filter and substructure search capability.</li>
+						  <li><strong>Administration</strong> - used for account management, reloading canonical trees, and committing structures.  Most users will not have access to this panel.</li>
+						</ul>
+						<p>
+							After a user logs in, Qrator displays a welcome panel. 
+							Other panels can be accessed by clicking menu options on the left side of the application. 
+							(<a href="#toc">back to top</a>)
+						</p>
+			
+						<h4 id="overview">2. Curation Overview</h4>
+						<p>
+							Qrator has been designed to assist scientists with curating different classes of glycan structures.
+							Structures are classified using motifs, and are assigned a type, which also corresponds to a canonical tree.
+						</p>
+						<p>
+							Canonical trees represent emergent structural features of a set of related glycan structures. 
+							Such trees are also formally implemented within the schema of the GlycO ontology and as "composite structure maps" in the <a href="http://www.genome.jp/kegg/" alt="KEGG" target="_blank">KEGG database</a>.
+							These are powerful canonical representations assembled by overlaying many glycan structures of a particular class (e.g. N-glycans) to generate a superstructure containing all of the different residues and residue-residue linkages included in the glycan structures that were used to generate the tree.
+							Each glycan, therefore, becomes a subset or sub-tree of the canonical tree.
+						</p>
+						<p>	
+							The application maintains lists of <strong style="font-weight:bold; color:#f0ad4e;">pending</strong> structures awaiting review, <strong style="font-weight:bold; color:#8db9df;">reviewed</strong> structures awaiting curation, and <strong style="font-weight:bold; color:#5cb85c;">approved</strong> structures.
+							A reviewer may also want to tag a structure as <strong style="font-weight:bold; color:#5bc0de">deferred</strong> for later review in cases such that the reviewer would like another expert to also examine the structure, or if the reviewer would like to do more research before making a final decision.
+							Structures that have been <strong style="font-weight:bold; color:#d9534f;">rejected</strong> are also kept for further analysis to prevent submitting the same structures again, because negative results can be also instructive, and also because the decision could potentially be reversed at a later date.
+							All Structures can be retrieved and downloaded as GLYDE-II XML files at any stage of curation, either by browsing individually, or downloading them as a batch from the Status page.
+						</p>
+						<p>
+							Furthermore, if Qrator is connected to an Ontology API instance, structures may be uploaded and added to the GlycO ontology. 
+							Likewise, metadata can be uploaded and added to the ReferO ontology.
+							(<a href="#toc">back to top</a>)
+						</p>
+			
+						<h4 id="status">3. Status Panel</h4>
+						<p>
+							The Status panel can be used to view the number of structures in all canonical trees across all stages of curation.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/status_panel.png"/>
+								<div class="caption">Status Panel</div>
+							</div>
+						</p>
+						<p>
+							Canonical trees can be viewed by clicking on the tree names. 
+							A dialog will be displayed with a zoomable and draggable image of the tree, along with a link to download an SVG diagram of the tree.
+							Subtypes of canonical trees, if they exist, are viewable by clicking the arrow beside the tree's name.
+							This arrow functions as a toggle to show and hide the tree's subtypes.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/canonical_tree.png"/>
+								<div class="caption">Canonical Tree Dialog</div>
+							</div>
+						</p>
+						<p>
+							Batches of structures at various stages of curation can be downloaded by clicking the download icon beside the number of structures.
+							The download is in the form of a zipped archive containing all structures of the requested canonical tree, at the requested stage of curation.
+							Clicking on the number of structures will redirect the user to the Browse panel, where the structures can be viewed as a paginated list.
+							(<a href="#toc">back to top</a>)
+						</p>
+			
+						<h4 id="browse">4. Browse Panel</h4>
+						<p>
+							The Browse panel can be used to view lists of structures, and offers various filter options and substructure search capability.
+							Structures may be filtered by their id in one of various source databases, the stage of curation they are in, their canonical tree, and various subtypes of these trees if applicable.
+							Structures may also be searched by substructures using the Search button.
+							In the displayed search dialog, a user may construct a template structure to filter upon.
+							Note that searching by substructure also takes into account any filter settings contained in the Filter dropdown.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/browse_panel.png"/>
+								<div class="caption">Browse Panel</div>
+							</div>
+						</p>
+						<p>
+							Each structure in the list is interactive, with the user able to mouse over a residue to get a more detailed description of what the residue is.
+							In the upper left corner of each structure's bounding box, its curation status is displayed, while more structure info is displayed in the upper right corner.
+							Structure info includes the person that uploaded the structure, the date that it was uploaded, and its specific type (subtype of a canonical tree).
+							Clicking on the type will display the canonical tree that the structure belongs to.
+							If the structure has been added to the GlycO ontology, a GOG designation number will be displayed denoting its identifier in GlycO.
+							At the bottom right, a download icon is displayed.  Clicking on this will download the structure's GLYDE-II representation as an XML file.
+							At the bottom left, a tree icon is displayed.  Clicking on this will highlight residues that a structure and its canonical tree do not share in common.
+							If a structure type is Unknown, this icon will not be displayed.
+							Also, if a canonical tree is not currently loaded, an error popup will be displayed.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/structure.png"/>
+								<div class="caption">A Typical Structure Display</div>
+							</div>
+						</p>
+						<p>
+							<div>
+								<img src="img/help/filter.png"/>
+								<div class="caption">Filtering Structures</div>
+							</div>
+						</p>
+						<p>
+							<div>
+								<img src="img/help/search.png"/>
+								<div class="caption">Substructure Search</div>
+							</div>
+						</p>
+						<p>
+							Meta information about a structure is available in the panel to the right of the structure when a structure is selected, via clicking on it.
+							The structure will highlight green when it is active to show which structure is selected.
+							Comments made by users will be displayed in the first tab, and references to the structure in other databases are displayed in the second tab.
+							Information about the structure's path through the curation workflow is displayed in the third tab.
+							(<a href="#toc">back to top</a>)
+						</p>
+						
+						<h4 id="upload">5. Upload Panel</h4>
+						<p>
+							The Upload panel can be used to upload new structures to Qrator.
+							The list of supported formats is shown at the top of the Upload panel's dialog box.
+							Currently, GLYDE-II XML files and GlycoWorkbench GWS files are accepted for upload, along with zipped collections of such structures.
+							Alternately, a user may use the Structure Builder to create a structure from scratch.
+							Such structures must be fully defined, however, as Qrator does not accept structures with ambiguous residue information.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/upload_panel.png"/>
+								<div class="caption">Upload Panel</div>
+							</div>
+						</p>
+						<p>
+							<div>
+								<img src="img/help/builder.png"/>
+								<div class="caption">Structure Builder</div>
+							</div>
+						</p>
+						<p>
+							After uploading structures, a report dialog is presented, with result messages about individual structures displayed.
+							Structure duplicates, unknown monosaccharides, and unsupported features (such as repeat blocks) are classified as errors and shaded red, while the structure is shaded green if it was created successfully.
+							(<a href="#toc">back to top</a>)
+						</p>
+						
+						<h4 id="curate">6. Curate Panel</h4>
+						<p>
+							The Curate panel is much like the Browse panel, only it can also be used to curate lists of structures, and likewise offers various filter options and substructure search capability.
+							Structures may be filtered exactly as in the Browse panel, and also searched by substructures.
+							Notable differences include the capability to review structures (match them against a canonical tree), defer structures, and curate structures (approve or reject reviewed structures).
+							The new functionality is included in a dropdown menu contained in the structure's curation status.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/curate_panel.png"/>
+								<div class="caption">Curate Panel</div>
+							</div>
+						</p>
+						<p>
+							Opening the status dropdown menu presents the reviewer with contextual options depending on which stage of curation the structure is in.
+						</p>
+						<p>
+							If the structure is <strong style="font-weight:bold; color:#f0ad4e;">pending</strong>, the options are:
+							<ul>
+								<li><strong>Match</strong> - the structure will be matched against the canonical tree to which it belongs.  Further information is presented below.</li>
+								<li><strong>Defer</strong> - the structure will be tagged as deferred until a reviewer decides to examine the structure again.  This status is usually reserved for cases where the reviewer is unsure of what to do with a structure.</li>
+								<li><strong>Reject</strong> - the structure will be tagged as rejected until a reviewer decides to examine the structure again.  This status is used when a reviewer believes a structure to be incorrect.</li>
+							</ul>
+						</p>
+						<p>
+							If the structure is <strong style="font-weight:bold; color:#8db9df;">reviewed</strong>, the options are:
+							<ul>
+								<li><strong>Approve</strong> - the structure will be approved for committal and/or inclusion in GlycO.  This status is used when a curator believes a structure is correct.</li>
+								<li><strong>Reject</strong> - the structure will be tagged as rejected until a reviewer decides to examine the structure again.  This status is used when a curator believes a structure to be incorrect.</li>
+							</ul>
+						</p>
+						<p>
+							If the structure is <strong style="font-weight:bold; color:#5bc0de">deferred</strong>, the options are:
+							<ul>
+								<li><strong>Match</strong> - the structure will be matched against the canonical tree to which it belongs.  Further information is presented below.</li>
+								<li><strong>Reject</strong> - the structure will be tagged as rejected until a reviewer decides to examine the structure again.  This status is used when a curator believes a structure to be incorrect.</li>
+							</ul>
+						</p>
+						<p>
+							If the structure is <strong style="font-weight:bold; color:#d9534f;">rejected</strong>, the options are:
+							<ul>
+								<li><strong>Match</strong> - the structure will be matched against the canonical tree to which it belongs.  Further information is presented below.</li>
+								<li><strong>Defer</strong> - the structure will be tagged as deferred until a reviewer decides to examine the structure again.  This status is usually reserved for cases where the reviewer is unsure of what to do with a structure.</li>
+							</ul>
+						</p>
+						<p>
+							Finally, if a structure is <strong style="font-weight:bold; color:#5cb85c;">approved</strong>, there are no options present in the menu, as the structure is assumed to be correct and has made it through both levels of review.
+						</p>
+						<p>
+							The Match function can only be initiated if a structure fits the motif of an existing canonical tree.
+							If the structure's type is Unknown, then the reviewer must assign a type to it before matching.
+							When a structure is matched, a list of potential matches is presented to the reviewer, alongside the uploaded structure.
+							Each match in the list has a score associated with it.
+							A perfect score happens when the structure has no differences from the canonical tree to which it was matched, and all three numbers in the score are identical.
+							Otherwise, individual residues may differ from their corresponding residues in the canonical tree in five ways:
+							<ol>
+								<li>Anomeric Configuration</li>
+								<li>Absolute Configuration</li>
+								<li>Ring Form</li>
+								<li>Linkage Position</li>
+								<li>Residue Type</li>
+							</ol>
+							A residue also may not topologically match any residue in the canonical tree, and not receive a score at all.
+							Thus, the score is interpreted as follows:
+							<ol>
+								<li>Score of all residues that topologically matched the canonical tree</li>
+								<li>Score possible if all residues topologically match the canonical tree</li>
+								<li>Total score possible</li>
+							</ol>
+							And takes the form <span class="badge">1/2/3</span> in the upper right corner of the match.
+						</p>
+						<p>
+							<div>
+								<img src="img/help/match_dialog.png"/>
+								<div class="caption">Match Dialog</div>
+							</div>
+						</p>
+						<p>
+							<div>
+								<img src="img/help/match_diff.png"/>
+								<div class="caption">Match Differences</div>
+							</div>
+						</p>
+						<p>
+							Residues that do not topologically match the canonical tree are highlighted with a light blue circle.
+							Residues that topologically match, but differ in one of the five ways previously mentioned are circled in red.
+							Additionally, when the user hovers the mouse pointer over a residue circled in red, the differences with the corresponding residue in the canonical tree are displayed.
+							(<a href="#toc">back to top</a>)
+						</p>
+						
+					</div>
+				</div>
+			</div>
+			<div id="footer"></div>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/jquery/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.simplePagination.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/d3/d3.v3.min.js"></script>
+		
+		<script type="text/javascript" src="js/util/utils.js"></script>
+		<script type="text/javascript" src="js/util/sha1.js"></script>
+		<script type="text/javascript" src="js/util/notifier.js"></script>
+				
+		<script type="text/javascript" src="js/glyde/structrenderer.js"></script>
+		<script type="text/javascript" src="js/glyde/gridnode.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/qrator.js"></script>
+		<script type="text/javascript" src="js/qrator/filter/filter.js"></script>
+		<script type="text/javascript" src="js/qrator/filter/structfilter.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/obj/entity.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/annotation.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/structure.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/provenance.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/reference.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/source.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/tree.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/type.js"></script>
+		<script type="text/javascript" src="js/qrator/obj/user.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/service/adminservice.js"></script>
+		<script type="text/javascript" src="js/qrator/service/structservice.js"></script>
+		<script type="text/javascript" src="js/qrator/service/treeservice.js"></script>
+		<script type="text/javascript" src="js/qrator/service/matchservice.js"></script>
+		<script type="text/javascript" src="js/qrator/service/serviceutil.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/ui/pane/homepane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/statuspane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/browsepane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/adminpane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/dashpane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/curationpane.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/pane/uploadpane.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/ui/display/structdisplay.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/display/filedisplay.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/display/metadisplay.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/display/userdisplay.js"></script>
+		
+		<script type="text/javascript" src="js/qrator/ui/widget/wizard.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/structreview.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/structbuilder.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/showtree.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/login.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/help.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/userprofile.js"></script>
+		<script type="text/javascript" src="js/qrator/ui/widget/assigntype.js"></script>
+		<script type="text/javascript">
+			new Qrator();
+		</script>
+	</body>
+</html>
