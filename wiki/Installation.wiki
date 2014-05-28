@@ -34,7 +34,7 @@ cd qrator && less mvndeps.sh
 {{{
 ./mvndeps.sh
 }}}
- # Provide your database settings in *_/src/main/resources/config/persist/persist.prop_* (as shown below).  The *_model_* property shouldn't be modified unless you know what you're doing.
+ # Provide your database settings in *_/src/main/resources/config/persist/persist.prop_* (as shown below).  The *_model_* property shouldn't be modified unless you know what you're doing.  The *_db_username_* property should be set to the Postgres role you created in step 2, and the *_db_password_* should be set to the password you chose for this role.
 {{{
 # PostgreSQL
 db_driver=org.postgresql.Driver
