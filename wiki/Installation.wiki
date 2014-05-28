@@ -22,7 +22,7 @@ To install Qrator, you must have:
 {{{
  createdb -O qrator qrator
 }}}
- # Install either the empty database schema, or the most recent Qrator database dump to your PostgreSQL database.  Both are located in the *_db_* directory. Replace _schema_only.sql_ with _schema_and_data.sql_ if you want to include previously curated structures, annotations, and references.
+ # Install either the empty database schema, or the most recent Qrator database dump to your PostgreSQL database.  Both are located in the *_db_* directory. Replace *_schema_only.sql_* with *_schema_and_data.sql_* if you want to include previously curated structures, annotations, and references.
 {{{
  psql -U qrator qrator < db/schema_only.sql
 }}}
