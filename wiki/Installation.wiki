@@ -11,7 +11,7 @@ To install Qrator, you must have:
 
 == How to build Qrator ==
 
- # Check out an anonymous copy of Qrator through SVN by following the instructions at [https://code.google.com/p/qrator/source/checkout].
+ # Check out a copy of Qrator through SVN by following the instructions at [https://code.google.com/p/qrator/source/checkout].
  # Enter the qrator directory and make sure your user home directory and Maven repository directory are set properly in  *_mvndeps.sh_*.
 {{{
 cd qrator && less mvndeps.sh
