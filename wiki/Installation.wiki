@@ -14,15 +14,23 @@ To install Qrator, you must have:
 == How to build Qrator ==
 
  # Check out a copy of Qrator through SVN by following the instructions at [https://code.google.com/p/qrator/source/checkout].
- # Create a new login role *_qrator_* using *_createuser_*.
+ # Create a new Postgres role *_qrator_* using *_createuser_*, with a password of your choosing.
 {{{
- createuser -P _password_ qrator
+ createuser -P <password> qrator
 }}}
  # Create an empty *_qrator_* database using *_createdb_*.
 {{{
  createdb -O qrator qrator
 }}}
- # Enter the qrator directory and make sure your user home directory and Maven repository directory are set properly in  *_mvndeps.sh_*.
+ # Install either the empty database schema, or the most recent Qrator database dump to your PostgreSQL database.  Both are located in the *_db_* directory.
+{{{
+ psql -U qrator qrator < db/schema_only.sql
+}}}
+or
+{{{
+ psql -U qrator qrator < db/schema_and_data.sql
+}}}
+ # Enter the _qrator_ directory and make sure your user home directory and Maven repository directory are set properly in  *_mvndeps.sh_*.
 {{{
 cd qrator && less mvndeps.sh
 }}}
@@ -40,7 +48,6 @@ db_password=
 
 model=config/qrator/model.json
 }}}
- # Install either the empty database schema, or the most recent Qrator database dump to your PostgreSQL database.  Both are located in the *_db_* directory.
  # Build the project with Maven:
 {{{
 mvn package
