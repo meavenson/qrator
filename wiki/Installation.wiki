@@ -26,7 +26,6 @@ To install Qrator, you must have:
 {{{
  psql -U qrator qrator < db/schema_only.sql
 }}}
-or
 {{{
  psql -U qrator qrator < db/schema_and_data.sql
 }}}
