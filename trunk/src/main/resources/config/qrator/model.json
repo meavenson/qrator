@@ -1,0 +1,362 @@
+{
+    "prefix": "Q",
+    "entity-interface-package": "edu.uga.qrator.obj.entity",
+    "relation-interface-package": "edu.uga.qrator.obj.relation",
+    "entity-implementation-package": "edu.uga.qrator.obj.entity.impl",
+    "relation-implementation-package": "edu.uga.qrator.obj.relation.impl",
+    "service-package": "edu.uga.qrator.service",
+    "session-manager": "edu.uga.qrator.logic.session.QSessionManager",
+    "author": "Matthew Eavenson",
+    "entities": {
+        "Entity": {
+            "key": "sid",
+            "abstract": true,
+            "attributes": [
+                {
+                    "name": "createdOn",
+                    "type": "Date",
+                    "default": "NOW()"
+                },
+                {
+                    "name": "modifiedOn",
+                    "type": "Date",
+                    "default": "NOW()"
+                }
+            ],
+            "x": 336.8516072779554,
+            "y": 65.64654146254591
+        },
+        "User": {
+            "key": "sid",
+            "user": true,
+            "attributes": [
+                {
+                    "name": "username",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "password",
+                    "type": "String",
+                    "size": 128
+                },
+                {
+                    "name": "name",
+                    "type": "String",
+                    "size": 128
+                },
+                {
+                    "name": "email",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "active",
+                    "type": "Boolean",
+                    "default": "true"
+                },
+                {
+                    "name": "createdOn",
+                    "type": "Date",
+                    "default": "NOW()"
+                },
+                {
+                    "name": "lastLogin",
+                    "type": "Date",
+                    "default": "NOW()"
+                }
+            ],
+            "x": 95.07310290971594,
+            "y": 252.36696500048595
+        },
+        "Role": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                }
+            ],
+            "x": 95.8033261765641,
+            "y": 65.90724662618626
+        },
+        "Structure": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "filename",
+                    "type": "String",
+                    "getset": "Name",
+                    "size": 128
+                },
+                {
+                    "name": "hash",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "spec",
+                    "type": "Text"
+                },
+                {
+                    "name": "contents",
+                    "type": "Text"
+                },
+                {
+                    "name": "status",
+                    "type": "QStructure.ReviewStatus",
+                    "values": [
+                        "pending",
+                        "reviewed",
+                        "deferred",
+                        "approved",
+                        "rejected",
+                        "committed"
+                    ]
+                },
+                {
+                    "name": "version",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 32
+                },
+                {
+                    "name": "uri",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 256,
+                    "unique": true
+                }
+            ],
+            "x": 339.49732501309495,
+            "y": 249.86382285361225
+        },
+        "Tree": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "description",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 512
+                },
+                {
+                    "name": "spec",
+                    "type": "Text",
+                    "nullable": true
+                }
+            ],
+            "x": 339.3692762218095,
+            "y": 403.2760038060287
+        },
+        "Provenance": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "action",
+                    "type": "QProvenance.ProvenanceAction",
+                    "values": [
+                        "toPending",
+                        "toReviewed",
+                        "toDeferred",
+                        "toApproved",
+                        "toRejected",
+                        "toOntology"
+                    ]
+                },
+                {
+                    "name": "uri",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 256,
+                    "unique": true
+                }
+            ],
+            "x": 585.1453564508233,
+            "y": 67.32518326241956
+        },
+        "Reference": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "srcId",
+                    "type": "String",
+                    "getset": "SourceId",
+                    "size": 128
+                },
+                {
+                    "name": "uri",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 256,
+                    "unique": true
+                }
+            ],
+            "x": 585.8386881450574,
+            "y": 271.5348306040099
+        },
+        "Annotation": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "comment",
+                    "type": "String",
+                    "size": 512
+                },
+                {
+                    "name": "uri",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 256,
+                    "unique": true
+                }
+            ],
+            "x": 585.196600528715,
+            "y": 171.55635732038138
+        },
+        "Source": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "uri",
+                    "type": "String",
+                    "size": 256,
+                    "unique": true
+                }
+            ],
+            "x": 586.1300830333191,
+            "y": 403.92639150993375
+        },
+        "StructureType": {
+            "parent": "Entity",
+            "key": "sid",
+            "attributes": [
+                {
+                    "name": "name",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                },
+                {
+                    "name": "description",
+                    "type": "String",
+                    "nullable": true,
+                    "size": 512
+                },
+                {
+                    "name": "glycoName",
+                    "type": "String",
+                    "size": 128,
+                    "unique": true
+                }
+            ],
+            "x": 93.09368714761229,
+            "y": 404.13877332820937
+        }
+    },
+    "relations": [
+        {
+            "name": "CreatedBy",
+            "from": "Entity",
+            "fromRole": "Created",
+            "to": "User",
+            "toRole": "Creator",
+            "cardinality": "ManyToOne",
+            "nullable": "false"
+        },
+        {
+            "name": "Tracks",
+            "from": "User",
+            "fromRole": "Tracker",
+            "to": "Structure",
+            "toRole": "Tracked",
+            "cardinality": "ManyToMany"
+        },
+        {
+            "name": "HasType",
+            "from": "Structure",
+            "fromRole": "Structure",
+            "to": "StructureType",
+            "toRole": "Type",
+            "cardinality": "ManyToOne",
+            "nullable": "false"
+        },
+        {
+            "name": "InTree",
+            "from": "StructureType",
+            "fromRole": "Type",
+            "to": "Tree",
+            "toRole": "Tree",
+            "cardinality": "ManyToOne",
+            "nullable": "false"
+        },
+        {
+            "name": "HasSource",
+            "from": "Reference",
+            "fromRole": "Reference",
+            "to": "Source",
+            "toRole": "Source",
+            "cardinality": "ManyToOne",
+            "nullable": "false"
+        },
+        {
+            "name": "HasReference",
+            "from": "Structure",
+            "fromRole": "Structure",
+            "to": "Reference",
+            "toRole": "Reference",
+            "cardinality": "OneToMany",
+            "nullable": "false"
+        },
+        {
+            "name": "HasAnnotation",
+            "from": "Structure",
+            "fromRole": "Structure",
+            "to": "Annotation",
+            "toRole": "Annotation",
+            "cardinality": "OneToMany",
+            "nullable": "false"
+        },
+        {
+            "name": "HasProvenance",
+            "from": "Structure",
+            "fromRole": "Structure",
+            "to": "Provenance",
+            "toRole": "Provenance",
+            "cardinality": "OneToMany",
+            "nullable": "false"
+        },
+        {
+            "name": "HasRole",
+            "from": "User",
+            "fromRole": "Account",
+            "to": "Role",
+            "toRole": "Role",
+            "cardinality": "ManyToMany"
+        }
+    ]
+}

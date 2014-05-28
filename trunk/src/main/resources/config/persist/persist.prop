@@ -1,0 +1,7 @@
+# PostgreSQL
+db_driver=org.postgresql.Driver
+db_url=jdbc:postgresql://localhost:5432/qrator
+db_username=
+db_password=
+
+model=config/qrator/model.json

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monosaccharideList>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup9Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup9Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O9" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="amino" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup1Me5Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup1Me5Ac">
+    <substituent substituent_name="methyl" from="C1" to="O1" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-lgal-NON-2:6|1:a|2:keto|3:d|9:d" monosaccharide_name="D-gro-a-L-3_9-dideoxy-galNon2ulop5NAc7NAc-onic" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-L-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_9-deoxy,_5-amino,_5-deoxy,_7-amino,_7-deoxy" full_name="D-gro-a-L-3_9-dideoxy-galNon2ulop5NAc7NAc-onic">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C7" from_replaces="O7" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-KDNp9Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy" full_name="a-D-KDNp9Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O9" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup5Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup5Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup4Ac5Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup4Ac5Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dman-HEP-1:5" monosaccharide_name="D-gro-a-D-manHepp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="D-gro-a-D-manHepp" />
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup5Gc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup5Gc">
+    <substituent substituent_name="n-glycolyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup5Ac9Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup5Ac9Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O9" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-Neup">
+    <substituent substituent_name="amino" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-Neup1N5Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy,_1-amino,_1-deoxy" full_name="a-D-Neup1N5Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C1" from_replaces="O1" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgro-lman-NON-2:6|1:a|2:keto|3:d|9:d" monosaccharide_name="L-gro-a-L-3_9-dideoxy-manNon2ulop5NAc7N-onic" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="L-glycero-L-manno" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_9-deoxy,_5-amino,_5-deoxy,_7-amino,_7-deoxy" full_name="L-gro-a-L-3_9-dideoxy-manNon2ulop5NAc7N-onic">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C7" from_replaces="O7" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="b-D-Neup5Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="b-D-Neup5Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgro-dgal-NON-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-KDNp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="D-glycero-D-galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy" full_name="a-D-KDNp" />
+  <monosaccharide base_type="a-dxyl-PEN-1:4" monosaccharide_name="a-D-Xylf" anomer="alpha" ring_form="furanoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Xylf" />
+  <monosaccharide base_type="b-dman-HEX-1:5" monosaccharide_name="b-D-Manp4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Manp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp2Me3Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp2Me3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-FucpNAc4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-FucpNAc4Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-Galp2Ac3Ac4Ac6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Galp2Ac3Ac4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dman-HEX-1:5" monosaccharide_name="b-D-Manp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Manp" />
+  <monosaccharide base_type="b-lgal-HEX-1:5|6:d" monosaccharide_name="b-L-Fucp2Me" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-L-Fucp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lgal-HEX-1:5|6:d" monosaccharide_name="b-L-Fucp" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-L-Fucp" />
+  <monosaccharide base_type="a-dgal-HEX-1:4" monosaccharide_name="a-D-Galf" anomer="alpha" ring_form="furanoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Galf" />
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Ac3Ac4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Ac3Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-FucpNAc4N" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,_4-amino,_4-deoxy,aldo" full_name="b-D-FucpNAc4N">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-ManpNAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-ManpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lman-HEX-1:5|6:d" monosaccharide_name="a-L-Rhap" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Rhap" />
+  <monosaccharide base_type="a-lxyl-PEN-1:5" monosaccharide_name="a-L-Xylp" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Xylp" />
+  <monosaccharide base_type="a-dxyl-HEX-1:5|3:d|6:d" monosaccharide_name="a-D-3_6-dideoxy-xylHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="a-D-3_6-dideoxy-xylHexp" />
+  <monosaccharide base_type="a-dxyl-HEX-1:5|3:d" monosaccharide_name="a-D-3-deoxy-xylHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,aldo" full_name="a-D-3-deoxy-xylHexp" />
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-Galp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Galp" />
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:d" monosaccharide_name="a-D-Quip4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_4-amino,_4-deoxy,aldo" full_name="a-D-Quip4N">
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:a" monosaccharide_name="b-D-GlcpA4Me6Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="b-D-GlcpA4Me6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lara-PEN-1:5" monosaccharide_name="a-L-Arap4Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Arap4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp2Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp2Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp6Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-drib-PEN-1:4" monosaccharide_name="a-D-Ribf" anomer="alpha" ring_form="furanoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Ribf" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp2Ac3Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp2Ac3Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-Fucp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-D-Fucp" />
+  <monosaccharide base_type="b-dman-HEX-1:5|6:a" monosaccharide_name="b-D-ManpANAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_2-amino,_2-deoxy,aldo" full_name="b-D-ManpANAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:4|6:d" monosaccharide_name="b-D-FucfNAc" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-FucfNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpNAc4Ac6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpNAc4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dara-HEX-1:5|2:d" monosaccharide_name="b-D-2-deoxy-araHexp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-deoxy,aldo" full_name="b-D-2-deoxy-araHexp" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-GlcpN" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpN">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-GlcpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:4" monosaccharide_name="b-D-Xylf" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylf" />
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-FucpNAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="a-L-FucpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lara-PEN-1:5" monosaccharide_name="a-L-Arap2Ac3Ac4Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Arap2Ac3Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA4Me6N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_6-amino,_6-deoxy,aldo" full_name="a-D-GlcpA4Me6N">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="amino" from="N1" to="C6" from_replaces="O6" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lman-HEX-1:5|6:d" monosaccharide_name="b-L-Rhap" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-L-Rhap" />
+  <monosaccharide base_type="a-dtal-HEX-1:5" monosaccharide_name="a-D-Talp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="talo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Talp" />
+  <monosaccharide base_type="a-dxyl-PEN-1:5" monosaccharide_name="a-D-Xylp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Xylp" />
+  <monosaccharide base_type="b-dman-OCT-2:6|1:a|2:keto|3:d" monosaccharide_name="b-D-KDOp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy" full_name="b-D-KDOp" />
+  <monosaccharide base_type="b-lara-HEP-2:6|1:a|2:keto|3:d" monosaccharide_name="b-L-3-deoxy-araHep2ulop5NAc-onic" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="b-L-3-deoxy-araHep2ulop5NAc-onic">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp3Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lman-HEX-1:5" monosaccharide_name="a-L-Manp" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Manp" />
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:a" monosaccharide_name="b-D-GlcpA6Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="b-D-GlcpA6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lman-HEX-1:5" monosaccharide_name="b-L-Manp" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-L-Manp" />
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp" />
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-GalpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GalpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dara-PEN-1:4" monosaccharide_name="b-D-Araf" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Araf" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-GlcpN3N" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-amino,_3-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpN3N">
+    <substituent substituent_name="amino" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp6Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-GalpN" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GalpN">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5|6:d" monosaccharide_name="a-D-Rhap" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-D-Rhap" />
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp2Ac3Ac4Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp2Ac3Ac4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dman-HEX-1:5|6:a" monosaccharide_name="b-D-ManpANAc3NAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_2-amino,_2-deoxy,_3-amino,_3-deoxy,aldo" full_name="b-D-ManpANAc3NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-FucpNAc4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,_4-amino,_4-deoxy,aldo" full_name="a-D-FucpNAc4N">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:d" monosaccharide_name="b-D-Quip3NAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_3-amino,_3-deoxy,aldo" full_name="b-D-Quip3NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpNAc3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpNAc3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-HEX-1:5|3:d" monosaccharide_name="a-D-3-deoxy-araHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,aldo" full_name="a-D-3-deoxy-araHexp" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp3Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lman-HEX-1:5|6:d" monosaccharide_name="a-L-Rhap2Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Rhap2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-ManpN4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-amino,_4-deoxy,_2-amino,_2-deoxy,aldo" full_name="a-D-ManpN4N">
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpNAc3Ac4Ac6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpNAc3Ac4Ac6Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-ManpN" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-ManpN">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-FucpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-FucpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp2Me3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp2Me3Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lara-PEN-1:4" monosaccharide_name="a-L-Araf" anomer="alpha" ring_form="furanoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Araf" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp3N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-amino,_3-deoxy,aldo" full_name="a-D-Manp3N">
+    <substituent substituent_name="amino" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp3Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:d" monosaccharide_name="b-D-Quip" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Quip" />
+  <monosaccharide base_type="a-dglc-HEX-1:5" monosaccharide_name="a-D-GlcpNAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GlcpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA4Me6Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GlcpA4Me6Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-drib-HEX-1:4|3:d|6:d" monosaccharide_name="b-D-3_6-dideoxy-ribHexf" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="b-D-3_6-dideoxy-ribHexf" />
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-Galp4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Galp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:4" monosaccharide_name="b-D-Galf" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galf" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp2Ac3Ac4Ac6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp2Ac3Ac4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp3Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp" />
+  <monosaccharide base_type="a-dglc-HEX-1:5" monosaccharide_name="a-D-Glcp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Glcp" />
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp3Ac4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp3Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dman-HEX-1:5" monosaccharide_name="b-D-ManpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-ManpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp4Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dlyx-PEN-1:5" monosaccharide_name="a-D-Lyxp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="lyxo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Lyxp" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp4Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp2Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp6N" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-amino,_6-deoxy,aldo" full_name="b-D-Galp6N">
+    <substituent substituent_name="amino" from="N1" to="C6" from_replaces="O6" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgul-HEX-1:5|6:a" monosaccharide_name="a-L-GulpA" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="gulo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-L-GulpA" />
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-Fucp4NAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_4-amino,_4-deoxy,aldo" full_name="a-D-Fucp4NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lman-HEX-1:5" monosaccharide_name="a-L-Manp2Me4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Manp2Me4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-PEN-1:4" monosaccharide_name="a-D-Araf" anomer="alpha" ring_form="furanoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Araf" />
+  <monosaccharide base_type="a-lman-HEX-1:5|6:d" monosaccharide_name="a-L-Rhap2Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Rhap2Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lara-PEN-1:5" monosaccharide_name="a-L-Arap" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Arap" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp3Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp2Me4Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp2Me4Ac">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-PEN-1:5" monosaccharide_name="a-D-Arap" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Arap" />
+  <monosaccharide base_type="b-drib-PEN-1:5" monosaccharide_name="b-D-Ribp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Ribp" />
+  <monosaccharide base_type="a-lara-HEX-1:5|2:d|6:d" monosaccharide_name="a-L-2_6-dideoxy-araHexp4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-deoxy,_6-deoxy,aldo" full_name="a-L-2_6-dideoxy-araHexp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpNAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp2Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp3Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-FucpNAc4NAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,_4-amino,_4-deoxy,aldo" full_name="a-L-FucpNAc4NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dlyx-HEX-1:5|4:d" monosaccharide_name="a-D-4-deoxy-lyxHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="lyxo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-deoxy,aldo" full_name="a-D-4-deoxy-lyxHexp" />
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp2Me4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-amino,_4-deoxy,aldo" full_name="a-D-Manp2Me4N">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dara-PEN-1:5" monosaccharide_name="b-D-Arap" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Arap" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Ac3Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Ac3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA6Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GlcpA6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lxyl-HEX-1:5|3:d|6:d" monosaccharide_name="a-L-3_6-dideoxy-xylHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="a-L-3_6-dideoxy-xylHexp" />
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp2Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp" />
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GlcpA4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp2Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-Galp3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Galp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GlcpA" />
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:a" monosaccharide_name="b-D-GlcpA" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="b-D-GlcpA" />
+  <monosaccharide base_type="b-lara-HEP-2:6|1:a|2:keto|3:d" monosaccharide_name="b-L-3-deoxy-araHep2ulop5NAc7N-onic" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy,_7-amino,_7-deoxy" full_name="b-L-3-deoxy-araHep2ulop5NAc7N-onic">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C7" from_replaces="O7" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp2Ac4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp2Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Ac4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lara-PEN-1:5" monosaccharide_name="b-L-Arap" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-L-Arap" />
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:a" monosaccharide_name="b-D-GlcpANAc4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpANAc4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lxyl-PEN-1:5" monosaccharide_name="b-L-Xylp" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-L-Xylp" />
+  <monosaccharide base_type="b-dman-HEX-1:5|6:a" monosaccharide_name="b-D-ManpANAc3N" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_2-amino,_2-deoxy,_3-amino,_3-deoxy,aldo" full_name="b-D-ManpANAc3N">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:a" monosaccharide_name="b-D-GlcpA4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="b-D-GlcpA4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:a" monosaccharide_name="a-D-GalpA" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GalpA" />
+  <monosaccharide base_type="b-dglc-HEX-1:5|6:d" monosaccharide_name="b-D-Quip2NAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-Quip2NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-drib-HEX-1:5|3:d|6:d" monosaccharide_name="a-D-3_6-dideoxy-ribHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="a-D-3_6-dideoxy-ribHexp" />
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-Glcp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Glcp" />
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp2Ac4Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp2Ac4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-OCT-2:6|1:a|2:keto|3:d" monosaccharide_name="a-D-3-deoxy-galOct2ulop5NAc-onic" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C2" structural_variation="aldonic,_2-keto,_3-deoxy,_5-amino,_5-deoxy" full_name="a-D-3-deoxy-galOct2ulop5NAc-onic">
+    <substituent substituent_name="n-acetyl" from="N1" to="C5" from_replaces="O5" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp2Me4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp2Me4Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dman-HEX-1:5" monosaccharide_name="b-D-Manp2Ac3Ac4Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Manp2Ac3Ac4Ac6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-drib-PEN-1:4" monosaccharide_name="b-D-Ribf" anomer="beta" ring_form="furanoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Ribf" />
+  <monosaccharide base_type="b-dxyl-HEX-1:5|3:d" monosaccharide_name="b-D-3-deoxy-xylHexp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,aldo" full_name="b-D-3-deoxy-xylHexp" />
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-Fucp2Me3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-D-Fucp2Me3Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-PEN-1:5" monosaccharide_name="b-D-Xylp3Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Xylp3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-ManpN3N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,_3-amino,_3-deoxy,aldo" full_name="a-D-ManpN3N">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp3Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5|6:d" monosaccharide_name="a-D-Rhap2Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-D-Rhap2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-HEX-1:5|2:d|6:d" monosaccharide_name="a-D-2_6-dideoxy-araHexp4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-deoxy,_6-deoxy,aldo" full_name="a-D-2_6-dideoxy-araHexp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-drib-PEN-1:5" monosaccharide_name="b-D-Ribp2Ac3Ac4Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Ribp2Ac3Ac4Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-FucpNAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="a-D-FucpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-Fucp2Me3Me4Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Fucp2Me3Me4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-HEX-1:5|2:d" monosaccharide_name="a-D-2-deoxy-araHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-deoxy,aldo" full_name="a-D-2-deoxy-araHexp" />
+  <monosaccharide base_type="a-llyx-PEN-1:4" monosaccharide_name="a-L-Lyxf" anomer="alpha" ring_form="furanoid" absolute_configuration="L" configuration="lyxo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-L-Lyxf" />
+  <monosaccharide base_type="a-dglc-HEX-1:5|6:a" monosaccharide_name="a-D-GlcpA2Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,aldo" full_name="a-D-GlcpA2Me">
+    <substituent substituent_name="methyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-GlcpNAc4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpNAc4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5|6:d" monosaccharide_name="b-D-Fucp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="b-D-Fucp" />
+  <monosaccharide base_type="a-lman-HEX-1:5|6:d" monosaccharide_name="a-L-Rhap3Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-L-Rhap3Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5|6:d" monosaccharide_name="a-D-Fucp3Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,aldo" full_name="a-D-Fucp3Me">
+    <substituent substituent_name="methyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp2Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="a-D-Manp2Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O2" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpNAc6Me" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpNAc6Me">
+    <substituent substituent_name="methyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-drib-HEX-1:5|3:d" monosaccharide_name="b-D-3-deoxy-ribHexpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="ribo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-3-deoxy-ribHexpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dglc-HEX-1:5" monosaccharide_name="b-D-GlcpNAc3Ac6Ac" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="b-D-GlcpNAc3Ac6Ac">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="acetyl" from="C1" to="O3" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgal-HEX-1:5|6:d" monosaccharide_name="a-L-FucpNAc4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,_4-amino,_4-deoxy,aldo" full_name="a-L-FucpNAc4N">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5" monosaccharide_name="a-D-GlcpNAc6Ac" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GlcpNAc6Ac">
+    <substituent substituent_name="acetyl" from="C1" to="O6" from_replaces="" to_replaces="O1" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dglc-HEX-1:5" monosaccharide_name="a-D-GlcpN" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="gluco" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GlcpN">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-lgal-HEX-1:5|6:d" monosaccharide_name="b-L-FucpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="L" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_6-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-L-FucpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dman-HEX-1:5" monosaccharide_name="a-D-Manp4N" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="manno" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-amino,_4-deoxy,aldo" full_name="a-D-Manp4N">
+    <substituent substituent_name="amino" from="N1" to="C4" from_replaces="O4" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="a-dara-HEX-1:5|3:d|6:d" monosaccharide_name="a-D-3_6-dideoxy-araHexp" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="a-D-3_6-dideoxy-araHexp" />
+  <monosaccharide base_type="b-dxyl-HEX-1:5|4:d" monosaccharide_name="b-D-4-deoxy-xylHexpNAc" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-deoxy,_2-amino,_2-deoxy,aldo" full_name="b-D-4-deoxy-xylHexpNAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dxyl-HEX-1:5|4:d" monosaccharide_name="b-D-4-deoxy-xylHexp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="xylo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_4-deoxy,aldo" full_name="b-D-4-deoxy-xylHexp" />
+  <monosaccharide base_type="b-dara-HEX-1:5|3:d|6:d" monosaccharide_name="b-D-3_6-dideoxy-araHexp" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="arabino" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_3-deoxy,_6-deoxy,aldo" full_name="b-D-3_6-dideoxy-araHexp" />
+  <monosaccharide base_type="a-dgal-HEX-1:5" monosaccharide_name="a-D-GalpN" anomer="alpha" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="_2-amino,_2-deoxy,aldo" full_name="a-D-GalpN">
+    <substituent substituent_name="amino" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <monosaccharide base_type="b-dgal-HEX-1:5" monosaccharide_name="b-D-Galp4Me" anomer="beta" ring_form="pyranoid" absolute_configuration="D" configuration="galacto" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="aldo" full_name="b-D-Galp4Me">
+    <substituent substituent_name="methyl" from="C1" to="O4" from_replaces="" to_replaces="O1" />
+  </monosaccharide>
+  <monosaccharide base_type="a-lgul-HEX-1:5|6:a" monosaccharide_name="a-L-GulpANAc3NAc" anomer="alpha" ring_form="pyranoid" absolute_configuration="L" configuration="gulo" anomeric_carbon="carbohydrate_residue_atom_C1" structural_variation="uronic,_3-amino,_3-deoxy,_2-amino,_2-deoxy,aldo" full_name="a-L-GulpANAc3NAc">
+    <substituent substituent_name="n-acetyl" from="N1" to="C3" from_replaces="O3" to_replaces="" />
+    <substituent substituent_name="n-acetyl" from="N1" to="C2" from_replaces="O2" to_replaces="" />
+  </monosaccharide>
+  <inorganic_substituent substituent_name="sulfate" full_name="S" from="S1" to="O" to_replaces="O1" />
+  <inorganic_substituent substituent_name="phosphate" full_name="P" from="P1" to="O" to_replaces="O1" />
+</monosaccharideList>
+

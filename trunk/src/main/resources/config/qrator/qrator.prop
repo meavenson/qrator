@@ -1,0 +1,20 @@
+# Resource locations (trees not needed if API enabled)
+monomap=config/qrator/monosaccharide_map.xml
+motifs=config/qrator/motifs.json
+trees=config/qrator/trees.json
+
+# Admin email (for password reset email)
+admin_email=qrator@ccrc.uga.edu
+
+# Ontology API settings
+api_enabled=true
+api_address=http://localhost:8080/ontologywebapi/
+api_username=qrator
+api_password=qrator658676gc
+
+# Mail settings
+mail_server=pod51004.outlook.com
+mail_port=587
+mail_account=glycomic@uga.edu
+mail_password=Tonight@25
+mail_tls=true
