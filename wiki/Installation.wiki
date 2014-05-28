@@ -9,7 +9,7 @@ To install Qrator, you must have:
  # Java 1.6+
  # Apache Maven
  # A running PostgreSQL database
- # A running instance of either Apache Tomcat 6+ or JBoss EAP 6+
+ # A running instance of either Apache Tomcat 6+, JBoss 7.1.1 (JBoss EAP 6.2 Beta - _free with registration_), or Wildfly 8+
 
 == How to build Qrator ==
 
@@ -48,4 +48,4 @@ model=config/qrator/model.json
 {{{
 mvn package
 }}}
- # The Qrator WAR file will be located in the newly created *_target_* subdirectory.  You may move the WAR file to either the Tomcat *_webapps_* directory, or to the *_deployments_* directory in JBoss.
+ # The Qrator WAR file will be located in the newly created *_target_* subdirectory.  You may move the WAR file to either the Tomcat *_webapps_* directory, or to the *_deployments_* directory in JBoss/Wildfly.
