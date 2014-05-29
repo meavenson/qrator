@@ -36,7 +36,7 @@ db_password=
 
 model=config/qrator/model.json
 }}}
- # Examine *build.sh_* and, if needed, correct the USERHOME and MAVENREPO variables.
+ # Examine *_build.sh_* and, if needed, correct the USERHOME and MAVENREPO variables.
  # If the settings are correct, run the project build script.  This file will install all necessary Maven dependencies and run *_mvn package_*.
 {{{
 ./build.sh
