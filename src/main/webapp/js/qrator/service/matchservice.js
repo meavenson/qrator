@@ -1,6 +1,6 @@
 ﻿var MatchService = function(app){
 	this.app = app;
-	this.address = "/qrator/service/match";
+	this.address = "service/match";
 	this.util = new ServiceUtil(app, this.address);
 };
 

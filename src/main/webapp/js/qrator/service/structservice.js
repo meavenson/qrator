@@ -1,6 +1,6 @@
 ﻿var StructureService = function(app){
 	this.app = app;
-	this.address = "/qrator/service/structure";
+	this.address = "service/structure";
 	this.util = new ServiceUtil(app, this.address);
 };
 
