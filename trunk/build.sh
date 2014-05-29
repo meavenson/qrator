@@ -61,3 +61,6 @@ mvn install:install-file -Dfile=lib/resourcesdb_interfaces.jar \
                          -DlocalRepositoryPath=${MAVENREPO}
 
 echo "Done."
+echo "Building project..."
+mvn package
+echo "Done."
