@@ -14,27 +14,19 @@ To install Qrator, you must have:
 == How to build Qrator ==
 
  # Check out a copy of Qrator through SVN by following the instructions at [https://code.google.com/p/qrator/source/checkout].
- # Create a new Postgres role *_qrator_* using *_createuser_*, with a password of your choosing.
+ # Create a new Postgres role *_qrator_* using *_createuser_*, with a password of your choosing.  You will need to provide the *_postgres_* role password, and a password for the new *_qrator_* role.
 {{{
- createuser -P <password> qrator
+createuser -U postgres -P qrator
 }}}
- # Create an empty *_qrator_* database using *_createdb_*.
+ # Create an empty *_qrator_* database using *_createdb_*.  You will need to provide the *_postgres_* role password.
 {{{
- createdb -O qrator qrator
+createdb -U postgres -O qrator qrator
 }}}
  # Install either the empty database schema, or the most recent Qrator database dump to your PostgreSQL database.  Both are located in the *_db_* directory. Replace *_schema_only.sql_* with *_schema_and_data.sql_* if you want to include previously curated structures, annotations, and references.
 {{{
  psql -U qrator qrator < db/schema_only.sql
 }}}
- # Enter the _qrator_ directory and make sure your user home directory and Maven repository directory are set properly in  *_mvndeps.sh_*.
-{{{
-cd qrator && less mvndeps.sh
-}}}
- # If the settings are correct, run the Maven dependency installation script:
-{{{
-./mvndeps.sh
-}}}
- # Provide your database settings in *_/src/main/resources/config/persist/persist.prop_* (as shown below).  The *_model_* property shouldn't be modified unless you know what you're doing.  The *_db_username_* property should be set to the Postgres role you created in step 2, and the *_db_password_* should be set to the password you chose for this role.
+ # Provide your database settings in *_src/main/resources/config/persist/persist.prop_* (as shown below).  The *_model_* property shouldn't be modified unless you know what you're doing.  The *_db_username_* property should be set to the Postgres role you created in step 2, and the *_db_password_* should be set to the password you chose for this role.
 {{{
 # PostgreSQL
 db_driver=org.postgresql.Driver
@@ -44,8 +36,10 @@ db_password=
 
 model=config/qrator/model.json
 }}}
- # Build the project with Maven:
+ # Examine *build.sh_* and, if needed, correct the USERHOME and MAVENREPO variables.
+ # If the settings are correct, run the project build script.  This file will install all necessary Maven dependencies and run *_mvn package_*.
 {{{
-mvn package
+./build.sh
 }}}
  # The Qrator WAR file will be located in the newly created *_target_* subdirectory.  You may move the WAR file to either the Tomcat *_webapps_* directory, or to the *_deployments_* directory in JBoss/Wildfly.
+ # After deploying the WAR file, the application will be accessible (assuming the server is on port 8080 and you have deployed on _localhost_) at [http://localhost:8080/Qrator-1.0/].
