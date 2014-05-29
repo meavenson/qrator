@@ -1,6 +1,6 @@
 ﻿var AdminService = function(app){
 	this.app = app;
-	this.util = new ServiceUtil(app, "/qrator/service/admin");
+	this.util = new ServiceUtil(app, "service/admin");
 };
 
 AdminService.prototype = {

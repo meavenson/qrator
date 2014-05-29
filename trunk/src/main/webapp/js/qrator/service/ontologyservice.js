@@ -1,6 +1,6 @@
 ﻿var OntologyService = function(app){
 	this.app = app;
-	this.address = "/qrator/service/ontology";
+	this.address = "service/ontology";
 	this.util = new ServiceUtil(app, this.address);
 };
 

@@ -1,6 +1,6 @@
 ﻿var TreeService = function(app){
 	this.app = app;
-	this.util = new ServiceUtil(app, "/qrator/service/tree");
+	this.util = new ServiceUtil(app, "service/tree");
 };
 
 TreeService.prototype = {
