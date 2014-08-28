@@ -4,17 +4,17 @@ motifs=config/qrator/motifs.json
 trees=config/qrator/trees.json
 
 # Admin email (for password reset email)
-admin_email=qrator@ccrc.uga.edu
+admin_email=
 
 # Ontology API settings
 api_enabled=true
 api_address=http://localhost:8080/ontologywebapi/
 api_username=qrator
-api_password=qrator658676gc
+api_password=
 
 # Mail settings
-mail_server=pod51004.outlook.com
+mail_server=
 mail_port=587
-mail_account=glycomic@uga.edu
-mail_password=Tonight@25
+mail_account=
+mail_password=
 mail_tls=true
