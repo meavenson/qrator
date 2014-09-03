@@ -7,9 +7,9 @@ trees=config/qrator/trees.json
 admin_email=
 
 # Ontology API settings
-api_enabled=true
-api_address=http://localhost:8080/ontologywebapi/
-api_username=qrator
+api_enabled=false
+api_address=
+api_username=
 api_password=
 
 # Mail settings

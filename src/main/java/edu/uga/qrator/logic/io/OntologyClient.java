@@ -76,7 +76,11 @@ import persist.query.filter.Filter;
 public class OntologyClient {
     
     // the account client, which keeps account credentials
-    private static final AccountClient account;
+    private final AccountClient account;
+    
+    private final GlycanClient glycanClient;
+    private final ReferenceClient refClient;
+    private final GlycanTreeClient treeClient;
     
     // the web address of the API, as a URL
     private static final URL address = QConfiguration.APIADDRESS;
@@ -85,7 +89,7 @@ public class OntologyClient {
     private static final String PREFIX = "http://glycomics.ccrc.uga.edu/ontologies/GlycO#";
     
     // create a new account client and login
-    static{
+    public OntologyClient(){
         account = new AccountClient(address.toExternalForm(), null);
         try{
             LoginResult loginresult=account.login( QConfiguration.APIUSERNAME, QConfiguration.APIPASSWORD );
@@ -94,6 +98,9 @@ public class OntologyClient {
                 account.setPath(loginresult.getPath());
                 account.setDomain(loginresult.getDomain());
             }
+            glycanClient = new GlycanClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
+            refClient = new ReferenceClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
+            treeClient = new GlycanTreeClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
         }catch(ErrorMessageException e){
             throw new QException(e);
         }catch(WebApiExecutionException e) {
@@ -108,9 +115,8 @@ public class OntologyClient {
      * 
      * @param manager  a {@code TreeManager} for updating tree information
      */
-    public static void loadTrees(TreeManager manager){
+    public void loadTrees(TreeManager manager){
         try{
-            GlycanTreeClient treeClient = new GlycanTreeClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
             List<ListObject> response=treeClient.getList();
             for(ListObject obj: response){
                 String name = obj.getName();
@@ -148,10 +154,8 @@ public class OntologyClient {
      * tree and type information
      * @param structure  a {@code QStructure} to be submitted
      */
-    public static void submitStructure(StructureManager manager, QStructure structure){
+    public void submitStructure(StructureManager manager, QStructure structure){
 
-        GlycanClient glycanClient = new GlycanClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
-        
         String glyde = StructureExporter.writeStructure(structure);
         QStructureType type = manager.getType(structure);
         QTree tree = manager.getTree(structure);
@@ -208,66 +212,94 @@ public class OntologyClient {
      * tree and type information
      * @param structure  a {@code QStructure} whose references will be submitted
      */
-    public static void submitReferences(AnnotationManager aManager, ReferenceManager rManager, ProvenanceManager pManager, QStructure structure){
+    public void submitReferences(AnnotationManager aManager, ReferenceManager rManager, ProvenanceManager pManager, QStructure structure){
 
-        ReferenceClient refClient = new ReferenceClient(address.toExternalForm(), account.getSsid(), account.getDomain(), account.getPath());
-        
-        Reference refObj = new Reference();
-
-        // need to fill the reference obj
-        ReferenceAnnotationGroup rag = new ReferenceAnnotationGroup();
-        List<Comment> commentList = new ArrayList<Comment>();
-        List<Database> dbList = new ArrayList<Database>();
-        List<Provenance> provList = new ArrayList<Provenance>();
-        
         for(Iterator<QAnnotation> iter = aManager.list(structure, null); iter.hasNext();){
             QAnnotation next = iter.next();
             QUser author = aManager.getCreator(next);
+            
             Comment c = new Comment();
             c.setAnnotationDate(next.getCreatedOn().toString());
             c.setAuthor(author.getName());
             c.setString(next.getComment());
+            
+            List<Comment> commentList = new ArrayList<Comment>();
             commentList.add(c);
+            
+            ReferenceAnnotationGroup rag = new ReferenceAnnotationGroup();
+            rag.setCommentList(commentList);
+            
+            Reference refObj = new Reference();
+            List<ReferenceAnnotationGroup> ragList = new ArrayList<ReferenceAnnotationGroup>();
+            ragList.add(rag);
+            refObj.setAnnotationGroupList(ragList);
+            
+            sendReference(refObj);
         }
         
         for(Iterator<QReference> iter = rManager.list(structure, (Filter) null); iter.hasNext();){
             QReference next = iter.next();
             QUser author = rManager.getCreator(next);
             QSource source = rManager.getSource(next);
+            
             Database db = new Database();
             db.setAnnotationDate(next.getCreatedOn().toString());
             db.setAuthor(author.getName());
             db.setNamespace(source.getName());
             db.setServerURL(source.getUri());
             db.setId(next.getSrcId());
+            
+            List<Database> dbList = new ArrayList<Database>();
             dbList.add(db);
+            
+            ReferenceAnnotationGroup rag = new ReferenceAnnotationGroup();
+            rag.setDatabaseList(dbList);
+            
+            Reference refObj = new Reference();
+            List<ReferenceAnnotationGroup> ragList = new ArrayList<ReferenceAnnotationGroup>();
+            ragList.add(rag);
+            refObj.setAnnotationGroupList(ragList);
+            
+            sendReference(refObj);
         }
         
         for(Iterator<QProvenance> iter = pManager.list(structure); iter.hasNext();){
             QProvenance next = iter.next();
             QUser author = pManager.getCreator(next);
+            
             Provenance p = new Provenance();
             p.setAnnotationDate(next.getCreatedOn().toString());
             p.setAuthor(author.getName());
             p.setAction(next.getAction().toString());
+            
+            List<Provenance> provList = new ArrayList<Provenance>();
             provList.add(p);
+            
+            ReferenceAnnotationGroup rag = new ReferenceAnnotationGroup();
+            rag.setProvenanceList(provList);
+            
+            Reference refObj = new Reference();
+            List<ReferenceAnnotationGroup> ragList = new ArrayList<ReferenceAnnotationGroup>();
+            ragList.add(rag);
+            refObj.setAnnotationGroupList(ragList);
+            
+            sendReference(refObj);
         }
         
-        rag.setCommentList(commentList);
-        rag.setDatabaseList(dbList);
-        rag.setProvenanceList(provList);
-                
-        // attempt to send it to the ontology api
+    }
+    
+    private String sendReference(Reference ref){
+        // attempt to send the reference to the ontology api
         try{
-            ExcutionResult response = refClient.put(refObj, true);
+            ExcutionResult response = refClient.put(ref, true);
             String xml = response.getResponse();
             
             // parse the structure's URI from the response and update the structure
             String uri = QratorUtils.getMatch(xml, "uri=\".*?\"")
                                     .replace("uri=", "")
                                     .replace("\"", "");
-            //structure.setUri(uri);
-            //manager.update(structure);
+            
+            return uri;
         }catch(WebApiExecutionException ex){
             ex.printStackTrace();
             throw new QException(ex);
@@ -279,4 +311,5 @@ public class OntologyClient {
             throw new QException(ex);
         }
     }
+    
 }

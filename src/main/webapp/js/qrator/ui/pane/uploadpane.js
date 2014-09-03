@@ -34,7 +34,7 @@ UploadPane.prototype = {
 		var file = $("<input type=\"file\" name=\"file\"/>").css("margin-top","10px").addClass("form-control");
 		var ssid = $("<input type=\"hidden\" name=\"ssid\" value=\""+t.app.uid+"\"/>");
 		
-		var frame = $("<iframe id=\"uTarget\"/>").css("display","none");
+		var frame = $("<iframe name=\"uTarget\" id=\"uTarget\"/>").css("display","none");
 		frame.load( function(e){
 						var resp = frame.contents().text();
 						if(resp){

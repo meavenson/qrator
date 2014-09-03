@@ -105,7 +105,7 @@ public class StructureService{
                 PersistenceUtil.enableAutoCommit(response.conn);
             }
         }catch(Exception ex) {
-            //ex.printStackTrace();
+            ex.printStackTrace();
             PersistenceUtil.rollback(response.conn);
             PersistenceUtil.enableAutoCommit(response.conn);
             response.error("There was an error processing your files - "+ex.getMessage());
@@ -590,7 +590,8 @@ public class StructureService{
                             residueCounts.put(tree.getName(), residues);
                         }
                         if(QConfiguration.APIENABLED){
-                            OntologyClient.submitStructure(sManager, struct);
+                            OntologyClient client = new OntologyClient();
+                            client.submitStructure(sManager, struct);
                         }
                         structs++;
                     }
