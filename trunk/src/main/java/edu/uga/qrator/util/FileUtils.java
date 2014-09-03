@@ -129,7 +129,9 @@ public class FileUtils {
         ArchiveEntry tEntry = input.getNextEntry();
         while(tEntry != null){
             String name = tEntry.getName();
-            name = name.substring(name.lastIndexOf("/"));
+            int lastSlash = name.lastIndexOf("/");
+            lastSlash = lastSlash == -1? 0 : lastSlash;
+            name = name.substring(lastSlash);
             byte[] contents = IOUtil.getStreamContents(input);
             if(name.endsWith(XML_EXT) && !name.startsWith("\\.")){
                 statuses.add(createFromGlydeII(manager, name, contents, user));
@@ -160,7 +162,6 @@ public class FileUtils {
      */
     private static Map<String, Object> createFromGlydeII(StructureManager manager, String name, byte[] contents, QUser user) throws IOException{
         Map<String, Object> status = new HashMap<String, Object>();
-        name = name.substring(name.lastIndexOf("/"));
         status.put("name", name);
         try{
             manager.create(name, contents, null, user);

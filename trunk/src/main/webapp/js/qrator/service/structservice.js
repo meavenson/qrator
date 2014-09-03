@@ -172,6 +172,12 @@ StructureService.prototype = {
 		var t = this;
 		var action = "sources";
 		t.util.request(true, action, {}, after);
+	},
+	
+	type: function(struct, type, after){
+		var t = this;
+		var action = "type/"+struct+"/"+type;
+		t.util.request(true, action, { "ssid": t.app.uid }, after);
 	}
 	
 };

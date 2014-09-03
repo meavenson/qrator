@@ -65,7 +65,8 @@ public class TreeManager {
         TreeManager tManager = new TreeManager(conn);
         
         if(QConfiguration.APIENABLED){
-            OntologyClient.loadTrees(tManager);
+            OntologyClient client = new OntologyClient();
+            client.loadTrees(tManager);
         }else{
             ClassLoader loader = TreeManager.class.getClassLoader();
             if(loader==null)

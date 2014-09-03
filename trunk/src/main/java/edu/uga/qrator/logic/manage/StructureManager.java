@@ -50,6 +50,8 @@ import persist.util.PersistenceUtil;
  */
 public class StructureManager {
     
+    private static final String GLYCO_NS = "http://glycomics.ccrc.uga.edu/ontologies/GlycO#";
+    
     // an entity factory object
     private final QEntityFactory efac;
     
@@ -58,6 +60,9 @@ public class StructureManager {
     //private final QUserTracksQStructure quqs;
     private final QStructureHasTypeQStructureType qsqt;
     private final QStructureTypeInTreeQTree qtqt;
+    
+    // a provenance manager object
+    private final ProvenanceManager provManager;
     
     // a reference manager object
     private final ReferenceManager refManager;
@@ -80,6 +85,7 @@ public class StructureManager {
         //quqs = afac.getQUserTracksQStructure();
         qsqt = afac.getQStructureHasTypeQStructureType();
         qtqt = afac.getQStructureTypeInTreeQTree();
+        provManager = new ProvenanceManager(conn);
         refManager = new ReferenceManager(conn);
         srcManager = new SourceManager(conn);
         query = new QueryBuilderSQL(conn);
@@ -112,6 +118,24 @@ public class StructureManager {
     
     public void revert(QStructure structure, QUser user, String comment){
         transfer(structure, user, comment, ReviewStatus.pending, ProvenanceAction.toPending);
+    }
+    
+    public void revertToPending(QStructure struct){
+        struct.setStatus(ReviewStatus.pending);
+        struct.setUri(null);
+        struct.setVersion(null);
+        update(struct);
+        for(Iterator<QProvenance> provs = provManager.list(struct); provs.hasNext();){
+            QProvenance prov = provs.next();
+            ProvenanceAction action = prov.getAction();
+            if(action.equals(ProvenanceAction.toReviewed) ||
+               action.equals(ProvenanceAction.toRejected) ||
+               action.equals(ProvenanceAction.toDeferred) ||
+               action.equals(ProvenanceAction.toApproved) ||
+               action.equals(ProvenanceAction.toOntology)){
+                provManager.remove(prov);
+            }
+        }
     }
     
     private void transfer(QStructure structure, QUser user, String comment, ReviewStatus status, ProvenanceAction action){
@@ -312,6 +336,13 @@ public class StructureManager {
     
     public QStructure getByHash(String hash){
         Filter<QStructure> filter = new Filter<QStructure>(QStructure.class).eq("hash", hash);
+        Iterator<QStructure> structures = list(filter);
+        if(structures.hasNext()) return structures.next();
+        return null;
+    }
+    
+    public QStructure getByGOGId(String id){
+        Filter<QStructure> filter = new Filter<QStructure>(QStructure.class).eq("uri", GLYCO_NS+id);
         Iterator<QStructure> structures = list(filter);
         if(structures.hasNext()) return structures.next();
         return null;
